@@ -20,7 +20,7 @@ def test_list_divide():
     except AssertionError as e:
         raise ListDivideException(f"Assertion error: {e}")
 
-# Call the test function
+# CallS the test function
 if __name__ == "__main__":
     test_list_divide()
     print("All test cases passed!")
